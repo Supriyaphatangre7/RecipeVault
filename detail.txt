@@ -1,229 +1,168 @@
 [
   {
-    "image": "https://i.pinimg.com/236x/9a/21/9c/9a219cdb4aa154eade503d0f86e9e112.jpg",
-    "title": "Blueberry Pancakes",
+    "title": "Classic Omelette",
+    "image": "https://example.com/images/omelette.jpg",
     "ingredients": [
-      "1 cup flour",
-      "2 tbsp sugar",
-      "1 tsp baking powder",
-      "1/2 tsp salt",
-      "1 cup milk",
-      "1 egg",
-      "1/2 cup blueberries",
-      "1 tbsp butter"
+      "2 large eggs",
+      "1 tablespoon butter",
+      "Salt to taste",
+      "Pepper to taste",
+      "Optional fillings: cheese, mushrooms, spinach, tomatoes, onions, bell peppers"
     ],
     "steps": [
-      "In a large bowl, combine the flour, sugar, baking powder, and salt.",
-      "In a separate bowl, whisk together the milk, egg, and melted butter until smooth.",
-      "Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix; it's okay if the batter is slightly lumpy.",
-      "Fold in the blueberries carefully to distribute them evenly throughout the batter.",
-      "Heat a non-stick skillet or griddle over medium heat and lightly grease with butter or oil.",
-      "Pour about 1/4 cup of batter onto the skillet for each pancake.",
-      "Cook for 2-3 minutes until bubbles form on the surface, then flip the pancakes and cook for another 1-2 minutes until golden brown.",
-      "Serve the pancakes hot with maple syrup, extra blueberries, or any topping of your choice."
-    ]
+      "Crack the eggs into a bowl, and whisk them until the yolks and whites are fully combined.",
+      "Add a pinch of salt and pepper to taste.",
+      "Heat a non-stick pan over medium heat and add the butter. Let it melt and become slightly bubbly.",
+      "Pour the beaten eggs into the pan, swirling to spread them evenly.",
+      "As the eggs start to set, gently lift the edges with a spatula, letting the uncooked egg flow to the edges.",
+      "If you’re adding any fillings, place them on one half of the omelette once the eggs are mostly set.",
+      "Fold the other half of the omelette over the fillings and let it cook for another 30 seconds.",
+      "Slide the omelette onto a plate and serve immediately."
+    ],
+    "category": "breakfast",
+    "notes": "You can customize your omelette with various fillings like cheese, ham, or veggies to suit your taste. Try experimenting with different combinations!"
   },
   {
-    "image": "https://i.pinimg.com/236x/79/46/70/794670b305f57a1478721e1d7b75c573.jpg",
-    "title": "Veggie Omelette",
+    "title": "Vegan Avocado Toast",
+    "image": "https://example.com/images/vegan-avocado-toast.jpg",
     "ingredients": [
-      "2 eggs",
-      "1/4 cup bell peppers, diced",
-      "1/4 cup onions, diced",
-      "1/4 cup spinach, chopped",
-      "1/4 cup shredded cheese (optional)",
+      "2 slices whole-grain bread",
+      "1 ripe avocado",
+      "1 tablespoon lemon juice",
       "Salt and pepper to taste",
-      "Olive oil or butter for cooking"
+      "Red pepper flakes (optional)",
+      "Olive oil for drizzling"
     ],
     "steps": [
-      "Crack the eggs into a bowl and whisk them until the yolks and whites are fully combined. Season with salt and pepper.",
-      "Heat a non-stick skillet over medium heat and add a teaspoon of olive oil or a small pat of butter.",
-      "Add the diced bell peppers, onions, and spinach to the skillet. Sauté for about 2-3 minutes until softened.",
-      "Pour the whisked eggs over the vegetables in the pan. Tilt the pan to ensure the eggs spread evenly.",
-      "Allow the eggs to cook for about 2-3 minutes, gently lifting the edges with a spatula to let the uncooked eggs flow to the edges.",
-      "Once the eggs are set, sprinkle the shredded cheese over one half of the omelette.",
-      "Fold the omelette in half, covering the cheese, and cook for another 1-2 minutes to allow the cheese to melt.",
-      "Carefully slide the omelette onto a plate and serve immediately."
-    ]
-  },
-  {
-    "image": "https://i.pinimg.com/474x/3a/69/0d/3a690dbceaf4f250a3fb6f4499185ace.jpg",
-    "title": "Vegan Breakfast Burrito",
-    "ingredients": [
-      "1 large tortilla",
-      "1/2 cup firm tofu, crumbled",
-      "1/4 cup black beans, drained and rinsed",
-      "1/4 avocado, sliced",
-      "1 tbsp salsa",
-      "1 tbsp nutritional yeast",
-      "Olive oil for cooking"
+      "Toast the bread slices until crispy.",
+      "Mash the avocado in a bowl and add lemon juice, salt, and pepper.",
+      "Spread the mashed avocado evenly on the toasted bread.",
+      "Sprinkle red pepper flakes if desired and drizzle with olive oil.",
+      "Serve immediately."
     ],
-    "steps": [
-      "Heat a non-stick skillet over medium heat and add a little olive oil.",
-      "Crumble the tofu into the skillet and cook for about 5 minutes, stirring occasionally, until it becomes golden and crispy.",
-      "Add the black beans to the skillet and cook for an additional 2-3 minutes, allowing them to warm through.",
-      "While the tofu and beans are cooking, heat the tortilla in a separate skillet for 30-45 seconds on each side, until warm and flexible.",
-      "Once the tofu and beans are cooked, remove them from the skillet and set them aside.",
-      "Place the tortilla on a flat surface and layer the tofu-bean mixture in the center.",
-      "Top with sliced avocado, salsa, and sprinkle with nutritional yeast for a cheesy flavor.",
-      "Fold the sides of the tortilla over the filling and roll it up tightly to form a burrito.",
-      "Serve the burrito as is or slice it in half for easier serving."
-    ]
+    "category": "vegan",
+    "notes": "This is a simple and healthy vegan breakfast option. You can add toppings like cherry tomatoes, cucumber, or sprouts for more flavor."
   },
   {
-    "image": "https://i.pinimg.com/236x/df/d2/b9/dfd2b925a5350c4ed5e31447f6b7fff8.jpg",
-    "title": "Lentil Curry",
+    "title": "Bacon and Egg Breakfast Sandwich",
+    "image": "https://example.com/images/bacon-egg-sandwich.jpg",
     "ingredients": [
-      "1 cup dried lentils, rinsed",
-      "1 onion, chopped",
-      "2 garlic cloves, minced",
-      "1 tablespoon grated ginger",
-      "1 tablespoon curry powder",
-      "1 teaspoon turmeric",
-      "1 teaspoon cumin",
-      "1 can (14 oz) coconut milk",
-      "2 cups vegetable broth",
-      "1 cup diced tomatoes",
-      "Salt and pepper to taste",
-      "Cilantro for garnish"
-    ],
-    "steps": [
-      "In a large pot, heat a tablespoon of oil over medium heat. Add the chopped onion and sauté for 3-4 minutes until softened.",
-      "Add the minced garlic and grated ginger, cooking for another 1-2 minutes until fragrant.",
-      "Stir in the curry powder, turmeric, and cumin, allowing the spices to toast for about 1 minute.",
-      "Add the rinsed lentils, coconut milk, vegetable broth, and diced tomatoes to the pot. Stir to combine.",
-      "Bring the mixture to a boil, then reduce the heat to low and cover. Simmer for 25-30 minutes, or until the lentils are tender.",
-      "Season the curry with salt and pepper to taste. If the curry is too thick, add additional vegetable broth to reach your desired consistency.",
-      "Serve the lentil curry hot, garnished with fresh cilantro and accompanied by rice or naan bread."
-    ]
-  },
-  {
-    "image": "https://i.pinimg.com/236x/3b/00/b1/3b00b1a4cf77496361faaa3d63d963eb.jpg",
-    "title": "Vegan Stir-Fry Tofu",
-    "ingredients": [
-      "1 block firm tofu, drained and cubed",
-      "2 tbsp soy sauce",
-      "1 tbsp sesame oil",
-      "1 cup broccoli florets",
-      "1 bell pepper, sliced",
-      "1/2 cup carrots, julienned",
-      "1/2 cup snap peas",
-      "2 garlic cloves, minced",
-      "1-inch piece ginger, grated",
-      "1 tbsp sesame seeds",
-      "2 tbsp soy sauce",
-      "1 tbsp rice vinegar"
-    ],
-    "steps": [
-      "Press the tofu to remove excess moisture, then cut it into cubes.",
-      "Heat sesame oil in a large skillet or wok over medium heat. Add the tofu and cook for 4-5 minutes on each side until golden brown and crispy.",
-      "Remove the tofu from the skillet and set aside. In the same pan, add the garlic and ginger and cook for 1-2 minutes until fragrant.",
-      "Add the broccoli, bell pepper, carrots, and snap peas to the pan. Stir-fry the vegetables for about 4-5 minutes until tender-crisp.",
-      "Add the tofu back into the pan and pour in soy sauce and rice vinegar. Toss everything together to coat the tofu and veggies evenly.",
-      "Sprinkle with sesame seeds and stir to combine. Cook for another 2-3 minutes, allowing the flavors to meld together.",
-      "Serve the stir-fry over rice or noodles for a complete meal."
-    ]
-  },
-  {
-    "image": "https://i.pinimg.com/236x/70/71/21/70712143f31414af7ff84975a2e514b0.jpg",
-    "title": "Grilled Salmon",
-    "ingredients": [
-      "4 salmon fillets",
-      "2 tbsp olive oil",
-      "1 lemon, sliced",
-      "1 tsp garlic powder",
-      "1 tsp dried herbs (such as thyme or rosemary)",
+      "2 slices bread",
+      "2 large eggs",
+      "2 strips of bacon",
+      "1 slice cheese",
+      "Butter for toasting",
       "Salt and pepper to taste"
     ],
     "steps": [
-      "Preheat the grill to medium-high heat.",
-      "Brush the salmon fillets with olive oil and season with garlic powder, dried herbs, salt, and pepper.",
-      "Place the salmon fillets on the grill, skin side down. Grill for about 5-6 minutes per side, or until the salmon is cooked through and flakes easily with a fork.",
-      "Serve the grilled salmon with lemon slices for added freshness."
-    ]
-  },
-  {
-    "image": "https://i.pinimg.com/236x/40/27/5b/40275ba9e03119646ac7ce644e403708.jpg",
-    "title": "Beef Stroganoff",
-    "ingredients": [
-      "1 lb beef (such as sirloin or tenderloin), thinly sliced",
-      "1 onion, chopped",
-      "2 garlic cloves, minced",
-      "1 cup mushrooms, sliced",
-      "1 cup beef broth",
-      "1 tbsp Worcestershire sauce",
-      "1 tbsp Dijon mustard",
-      "1/2 cup sour cream",
-      "2 tbsp flour",
-      "Salt and pepper to taste",
-      "Cooked egg noodles for serving"
+      "Cook the bacon strips in a pan over medium heat until crispy, then set aside.",
+      "In the same pan, fry the eggs to your liking (sunny side up or scrambled). Season with salt and pepper.",
+      "Toast the bread slices with butter in the pan until golden and crispy.",
+      "Assemble the sandwich by placing a slice of cheese on one piece of toasted bread, then layer with bacon and the fried egg.",
+      "Top with the other slice of bread and serve immediately."
     ],
-    "steps": [
-      "Heat a tablespoon of oil in a large skillet over medium heat. Add the beef slices and cook until browned. Remove the beef from the skillet and set aside.",
-      "In the same skillet, add a little more oil and sauté the onion, garlic, and mushrooms for about 5 minutes until softened.",
-      "Add the flour to the pan and stir for 1-2 minutes to make a roux.",
-      "Slowly pour in the beef broth, Worcestershire sauce, and Dijon mustard. Stir to combine and bring the mixture to a simmer.",
-      "Return the beef to the skillet, along with any juices. Cook for another 5-6 minutes until the beef is tender and the sauce has thickened.",
-      "Stir in the sour cream, season with salt and pepper, and simmer for an additional 2 minutes.",
-      "Serve the beef stroganoff over cooked egg noodles."
-    ]
+    "category": "meat",
+    "notes": "This hearty breakfast sandwich is perfect for meat lovers. You can also add vegetables like spinach or tomatoes for extra flavor."
   },
   {
-    "image": "https://i.pinimg.com/474x/3c/33/cb/3c33cbea6cee148f06ea73e62986cc55.jpg",
-    "title": "BBQ Ribs",
+    "title": "Berry Smoothie",
+    "image": "https://example.com/images/berry-smoothie.jpg",
     "ingredients": [
-      "1 rack of baby back ribs",
-      "1/4 cup brown sugar",
-      "1/4 cup paprika",
-      "1 tbsp garlic powder",
-      "1 tbsp onion powder",
-      "1 tsp black pepper",
-      "1 tsp salt",
-      "1 tsp cumin",
-      "1 cup BBQ sauce"
-    ],
-    "steps": [
-      "Preheat your oven to 300°F (150°C).",
-      "In a small bowl, combine brown sugar, paprika, garlic powder, onion powder, black pepper, salt, and cumin.",
-      "Rub the spice mixture generously over the ribs, covering both sides.",
-      "Place the ribs on a baking sheet lined with aluminum foil. Cover the ribs with foil and bake for 2.5 to 3 hours until tender.",
-      "Remove the ribs from the oven, discard the top piece of foil, and brush the ribs with BBQ sauce.",
-      "Grill the ribs over medium heat for 5-10 minutes to caramelize the BBQ sauce. Serve hot."
-    ]
-  },
-  {
-    "image": "https://i.pinimg.com/236x/23/bd/12/23bd12aa527e1ee7e749926502e69e5a.jpg",
-    "title": "Tropical Smoothie",
-    "ingredients": [
+      "1 cup frozen mixed berries",
       "1 banana",
-      "1/2 cup pineapple chunks",
-      "1/2 cup mango chunks",
-      "1/2 cup coconut milk",
-      "1/2 cup orange juice",
-      "Ice cubes"
+      "1/2 cup almond milk",
+      "1/2 cup Greek yogurt",
+      "1 tablespoon honey (optional)"
     ],
     "steps": [
-      "Add the banana, pineapple, mango, coconut milk, and orange juice to a blender.",
-      "Blend until smooth, adding ice cubes as needed to reach your desired consistency.",
+      "Place all ingredients into a blender.",
+      "Blend until smooth and creamy.",
       "Pour into a glass and serve immediately."
-    ]
+    ],
+    "category": "drinks-smoothies",
+    "notes": "You can customize the smoothie by adding other fruits like mango or spinach. This smoothie is a refreshing, healthy option for breakfast."
   },
   {
-    "image": "https://i.pinimg.com/236x/88/7f/8c/887f8c5b8a8a6704ed523523a592a4a3.jpg",
-    "title": "Green Detox Juice",
+    "title": "Chia Pudding with Berries",
+    "image": "https://example.com/images/chia-pudding.jpg",
     "ingredients": [
-      "1 cucumber, peeled and chopped",
-      "2 celery stalks, chopped",
-      "1/2 cup spinach",
-      "1/2 apple",
-      "1 lemon, juiced",
-      "1-inch piece ginger",
-      "1 cup water"
+      "3 tablespoons chia seeds",
+      "1 cup almond milk",
+      "1 tablespoon maple syrup",
+      "1/2 teaspoon vanilla extract",
+      "Fresh berries for topping"
     ],
     "steps": [
-      "Add all ingredients to a blender or juicer.",
-      "Blend or juice until smooth and well combined.",
-      "Pour into a glass and serve immediately."
-    ]
+      "In a bowl, mix the chia seeds, almond milk, maple syrup, and vanilla extract.",
+      "Cover the bowl and refrigerate for at least 4 hours or overnight.",
+      "Once the pudding has thickened, top with fresh berries.",
+      "Serve chilled."
+    ],
+    "category": "dessert",
+    "notes": "Chia pudding is a great make-ahead breakfast or dessert option. You can add your favorite fruits or nuts on top."
+  },
+  {
+    "title": "Granola Bars",
+    "image": "https://example.com/images/granola-bars.jpg",
+    "ingredients": [
+      "2 cups oats",
+      "1/2 cup honey",
+      "1/2 cup peanut butter",
+      "1/4 cup mini chocolate chips",
+      "1/4 cup dried cranberries",
+      "1/2 teaspoon vanilla extract"
+    ],
+    "steps": [
+      "Preheat the oven to 350°F (175°C).",
+      "In a large bowl, combine oats, honey, peanut butter, and vanilla extract.",
+      "Mix in the chocolate chips and dried cranberries.",
+      "Spread the mixture evenly in a greased baking dish.",
+      "Bake for 15-20 minutes, until golden brown.",
+      "Let the bars cool before cutting into squares."
+    ],
+    "category": "snacks",
+    "notes": "These granola bars are a great on-the-go snack. You can customize them by adding other nuts or seeds."
+  },
+  {
+    "title": "Avocado Chicken Salad",
+    "image": "https://example.com/images/avocado-chicken-salad.jpg",
+    "ingredients": [
+      "1 cooked chicken breast, diced",
+      "1 ripe avocado, diced",
+      "1/4 cup red onion, diced",
+      "1 tablespoon olive oil",
+      "1 tablespoon lime juice",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a bowl, combine the diced chicken, avocado, and red onion.",
+      "Add olive oil, lime juice, salt, and pepper, and toss gently to combine.",
+      "Serve on a bed of lettuce or as a sandwich filling."
+    ],
+    "category": "lunch",
+    "notes": "This fresh and creamy chicken salad is light but filling. You can serve it with crackers or in a wrap."
+  },
+  {
+    "title": "Tomato Soup",
+    "image": "https://example.com/images/tomato-soup.jpg",
+    "ingredients": [
+      "4 cups fresh tomatoes, chopped",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "1 tablespoon olive oil",
+      "2 cups vegetable broth",
+      "1 teaspoon dried basil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      "In a large pot, heat olive oil over medium heat. Add the onion and garlic, cooking until softened.",
+      "Add the chopped tomatoes and cook for 5-7 minutes until they begin to break down.",
+      "Add the vegetable broth, dried basil, salt, and pepper. Bring to a boil, then reduce to a simmer.",
+      "Simmer for 20-25 minutes until the tomatoes are tender.",
+      "Blend the soup with an immersion blender or in a regular blender until smooth.",
+      "Serve hot with a sprinkle of fresh basil."
+    ],
+    "category": "soup",
+    "notes": "Tomato soup is a comforting and easy-to-make dish. You can add a grilled cheese sandwich on the side for a classic combo."
   }
 ]

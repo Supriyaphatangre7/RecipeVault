@@ -1,13 +1,10 @@
-import React from 'react'
+// Footer.jsx
+import React from 'react';
 
-const Footer = () => {
-  return (
-    <>
-    <footer className="footer  text-white text-center py-3">
-  <p className="mb-0">© 2025 Your Website | All Rights Reserved</p>
-</footer>
-    </>
-  )
-}
+const Footer = () => (
+  <footer className="bg-dark text-light text-center py-3 mt-auto">
+    <p className="mb-0">© {new Date().getFullYear()} RecipeHub - Delicious Food, Shared with ❤️</p>
+  </footer>
+);
 
-export default Footer
+export default Footer;

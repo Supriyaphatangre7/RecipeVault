@@ -11,7 +11,7 @@ import Chickenwings from "./components/chickenwings";
 import VeganSalad from "./components/VeganSalad";
 import Chocolate from "./components/Chocolate";
 import Pasta from "./components/Pasta";
-import { useAuth } from "../store/auth";
+import UploadRecipe from "./components/UploadRecipe";
 import Footer from "./components/Footer";
 
 
@@ -20,9 +20,10 @@ function App() {
 
   return (
     <>
-
+<div className="main-content">
       <BrowserRouter>
         <Navbar />
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -30,18 +31,19 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
 
-          <Route path="/recipe" element={<Recipes />} />
+          <Route path="/recipes" element={<Recipes />} />
           <Route path="/chicken" element={<Chickenwings />} />
           <Route path="/vegan" element={<VeganSalad />} />
           <Route path="/choco" element={<Chocolate />} />
           <Route path="/pasta" element={<Pasta />} />
           <Route path="/recipe/:id" element={<RecipeDetail />} />
+          <Route path="/recipe" element={<UploadRecipe />} />
 
         </Routes>
-        
+        <Footer/>
       </BrowserRouter>
-      <Footer/>
-   
+    
+      </div>
 
     </>
 

@@ -7,9 +7,11 @@ import recipeRouter from "./routers/recipe-router.js"
 import errorMiddleware from "./middleware/error-middleware.js";
 
 
+
 dotenv.config();
 
 const app=express();
+
 
 const corsOptions={
    origin:"http://localhost:5173",
@@ -17,10 +19,21 @@ const corsOptions={
    credentials:true,
 };
 app.use(cors(corsOptions));
-app.use(express.json());
+app.use(express.json()); 
 app.use(router);
 app.use(recipeRouter);
 app.use(errorMiddleware);
+app.use(express.json({ 
+    limit: '50mb',
+    extended: true,
+    parameterLimit: 100000
+  }));
+  app.use(express.urlencoded({
+    limit: '50mb',
+    extended: true,
+    parameterLimit: 100000
+  }));
+
 
 const PORT=3000;
 

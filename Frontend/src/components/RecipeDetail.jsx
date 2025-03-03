@@ -30,45 +30,36 @@ const RecipeDetail = () => {
         <div className="container mt-5">
         <div className="card shadow-lg">
             <div className="row g-0">
-               
-                <h2 className="card-title mb-4" style={{ 
+               <h2 className="card-title mb-4" style={{ 
                     color: "#513b3b", 
                     marginLeft: "15px", 
-                    fontWeight: "bold",
-                    
-                }}>
+                    fontWeight: "bold"}}>
                     {recipe.title}
                 </h2>
-    
-                <div className="col-md-6 d-flex flex-column">
-                    <div className="p-4">
-                        <h3 className="text-muted mb-3">Ingredients</h3>
-                        <ul className="list-group list-group-flush">
-                            {recipe.ingredients.map((ingredient, index) => (
-                                <li key={index} className="list-group-item d-flex align-items-center">
-                                    <span className="me-2">•</span>
-                                    {ingredient}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-    
-                    <div className="mt-auto p-2">
-                        <img
-                            src={recipe.image}
-                            className="img-fluid rounded-bottom"
-                            alt={recipe.title}
-                            style={{
-                                height: "400px",
-                                objectFit: "cover",
-                                width: "100%",
-                                borderRadius: "0 0 0 8px"
-                            }}
-                        />
-                    </div>
-                </div>
-    
-                <div className="col-md-6">
+                
+       <div className="col-md-6 d-flex flex-column">
+          <div className="mt-auto p-2">
+       
+           <img src={recipe.image} className="img-fluid rounded-bottom" alt={recipe.title}
+             style={{
+                    borderRadius: " 8px",
+                    height:"520px",
+                    width:"100%"
+                    }}/>
+              </div>
+      
+          <div className="p-4">
+            <h3 className="text-muted mb-3">Ingredients</h3>
+            <ul className="list-group list-group-flush">
+                    {recipe.ingredients.map((ingredient, index) => (
+                     <li key={index} className="list-group-item d-flex align-items-center">
+                         <span className="me-2">•</span>
+                             {ingredient}
+                    </li>))}
+         </ul>
+        </div>  
+    </div>
+           <div className="col-md-6">
                     <div className="card-body p-4 h-100 d-flex flex-column">
                         <div className="mb-4">
                             <h3 className="text-muted mb-3">Steps</h3>
@@ -85,16 +76,18 @@ const RecipeDetail = () => {
                                     </li>
                                 ))}
                             </ol>
-                        </div>
-    
-                        {recipe.notes && (
-                            <div className="mt-auto p-3 bg-light rounded">
-                                <h4 className="text-muted">Chef's Notes</h4>
-                                <p className="lead mb-0" style={{ color: "#5a4f4f" }}>
-                                    {recipe.notes}
-                                </p>
-                            </div>
-                        )}
+            <div className='notes-section'>
+              {recipe.notes && (
+             <div className="mt-auto p-3 rounded">
+                    <h4 className="text-muted">Chef's Notes</h4>
+                     <p className="lead mb-0" style={{ color: "#5a4f4f" }}>
+                        {recipe.notes} </p>
+                    </div>
+                )}
+            </div>
+                    
+             </div>
+
                     </div>
                 </div>
             </div>

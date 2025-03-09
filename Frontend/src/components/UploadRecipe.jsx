@@ -86,6 +86,7 @@ const UploadRecipe = () => {
   };
 
   return (
+    <div className="main-content">
     <div className="container mt-5">
       <h2 className="mb-4">Upload New Recipe</h2>
       <form onSubmit={handleSubmit}>
@@ -193,6 +194,7 @@ const UploadRecipe = () => {
           )}
         </button>
       </form>
+    </div>
     </div>
   );
 };

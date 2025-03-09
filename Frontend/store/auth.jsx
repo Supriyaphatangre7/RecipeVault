@@ -5,6 +5,7 @@ export const AuthContext = createContext();
 export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(localStorage.getItem("token"));
   const [recipes, setRecipes] = useState([]);
+ 
 
 
   const storeTokenInLs = (serverToken) => {

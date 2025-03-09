@@ -24,10 +24,11 @@ const Chocolate = () => {
     };
     return (
         <>
+     <div className="main-content">
      <div className="container mt-5">
      <div className="card shadow-lg">
        <div className="row g-0">
-         <h2 className="card-title mb-4" style={{ color: "#513b3b", marginLeft: "15px", fontWeight: "bold" }}>
+         <h2 className="card-title mb-4" style={{ color: "#333", marginLeft: "15px",  }}>
         {recipe.title}
         </h2>
 
@@ -70,6 +71,7 @@ const Chocolate = () => {
  </div>
  </div>
  </div>
+</div>
 </div>
         </>
     )

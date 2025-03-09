@@ -245,7 +245,7 @@ export const Home = () => {
           </div>
 
 
-          <div style={{ marginTop: "150px", padding: "40px", backgroundColor: "black", color: "white", textAlign: "center" }}>
+          <div style={{ marginTop: "100px", padding: "40px", backgroundColor: "black", color: "white", textAlign: "center" }}>
             <div style={{ display: "flex", justifyContent: "space-around", height: "120px" }}>
               {[
                 { number: "500+", label: "Happy Clients" },
@@ -264,5 +264,7 @@ export const Home = () => {
     
 
     </>
+    
   );
+  
 };

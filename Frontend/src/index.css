@@ -1,3 +1,4 @@
+
 /* Navbar*/
 
 .navbar {
@@ -348,33 +349,44 @@ margin-top: 20px;
 
 html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-/* Main content should take all available space */
+
 .main-content {
   flex: 1;
+  padding-bottom: 60px;
+ 
+}
+
+.main-container {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 60px); /* Adjust based on header height */
+  min-height: 100vh;
 }
 
 /* Footer styling */
 
-Footer {
+.footer {
   background-color: #0c0c0c;
   color: white;
   padding: 20px 0;
   width: 100%;
   text-align: center;
-  margin-top: auto; /* This pushes footer to bottom */
+  margin-top: auto;
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0; 
 }
 
 
 /* notes*/
 .notes-section{
-  margin-top: 100px;
+  margin-top: 120px;
   background-color: #dae1dd;
   border-radius: 8px;
+
 }
 
 

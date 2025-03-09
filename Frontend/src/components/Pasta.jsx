@@ -32,10 +32,12 @@ const Pasta = () => {
 
     return (
         <>
+        <div className="main-content">
     <div className="container mt-5">
       <div className="card shadow-lg">
        <div className="row g-0">
-        <h2 className="card-title mb-4" style={{ color: "#513b3b", marginLeft: "15px", fontWeight: "bold" }}>          {recipe.title}
+        <h2 className="card-title mb-4" style={{ color: "#333", marginLeft: "15px",  }}> 
+          {recipe.title}
         </h2>
         <div className="col-md-6 d-flex flex-column">
           <div className="mt-auto ">
@@ -73,6 +75,7 @@ const Pasta = () => {
      </div>
    </div>
  </div>
+</div>
 </div>
         </>
     );
